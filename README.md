@@ -13,7 +13,7 @@
 ![Шаблон](./src/image/photo.png)
 
 ## Дизайн:
-## [Открыть страницу](https://www.figma.com/file/AJg92P4NRV0azZ31k5KLIY/Тестовое-задание-для-разработчика?node-id=0%3A1&t=qifwNtTScITAfNhi-0)
+## [Открыть страницу](https://www.figma.com/file/FrRpHmdcQd9wgCGXFQJp6f/Тестовое-задание-для-разработчика?type=design&node-id=0-1&mode=design&t=Cj3id6a6mZCtfNmu-0)
 
 
 ### Используемые инструменты.

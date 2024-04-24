@@ -1,0 +1,110 @@
+.news__header {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.news {
+  border-top: 1px gray solid;
+
+  margin: 40px 40px 100px;
+  max-width: 100%;
+  padding-top: 150px;
+}
+@media screen and (max-width: 1250px) {
+  .news {
+    margin: 0 50px;
+  }
+}
+.news__item-img {
+  object-fit: cover;
+  height: 264px;
+  transition: 0.3s;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.news__item-img:hover {
+  transform: scale(1.1);
+}
+.news__item :hover + .news__item-header {
+  cursor: pointer;
+  background: linear-gradient(180deg, #fb8627 0%, #f5bef6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.news__item-header:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #fb8627 0%, #f5bef6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.news__item {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.news__item-header {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.news__item-paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+  opacity: 0.5;
+}
+.news__group {
+  display: grid;
+  gap: 50px 20px;
+  grid-template-columns: repeat(3, minmax(120px, 440px));
+  justify-content: space-between;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+li div {
+  display: inline-block;
+  overflow: hidden;
+}
+@media screen and (max-width: 1250px) {
+  .news__group {
+    grid-template-columns: repeat(2, minmax(120px, 440px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .news__group {
+    grid-template-columns: repeat(1, minmax(120px, 440px));
+  }
+  .news {
+    margin: 0;
+    padding-top: 80px;
+  }
+  .news__item-paragraph {
+    margin: 0 0 0 10px;
+  }
+  .news__item-header {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .news__header {
+    margin: 0 0 30px 10px;
+    font-size: 24px;
+    color: #fff;
+  }
+}

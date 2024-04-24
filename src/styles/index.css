@@ -1,0 +1,38 @@
+@import url("../styles/header/header.css");
+@import url("../styles/header/__logo/header__logo.css");
+@import url("../styles/header/__nav-box/header__nav-box.css");
+@import url("../styles/header/__nav-list-item/header__nav-list-item.css");
+@import url("../styles/header/__nav-bar/header__nav-bar.css");
+@import url("../styles/header/__box-name/header__box-name.css");
+@import url("../styles/header/__nav-container/header__nav-container.css");
+@import url("../styles/details/details.css");
+@import url("../styles/news/news.css");
+@import url("../styles/footer/footer.css");
+@import url("../styles/feedback/feedback.css");
+@import url("../styles/swiper/swiper.css");
+
+@import url("../styles/burger/burger.css");
+
+@import url("../styles/popup/popup/popup.css");
+@import url(../styles/popup/popup/_opened/popup_opened.css);
+@import url(../styles/popup/popup/__container/popup__container.css);
+@import url(../styles/popup/popup/__button-close/popup__button-close.css);
+
+@import url(../styles/popup/form/form.css);
+@import url(../styles/popup/form/__input/form__input.css);
+
+@import url(../styles/popup/form/__bottom-submit/form__bottom-submit.css);
+@import url(../styles/popup/form/__title/form__title.css);
+@import url(../styles/popup/form/__group/form__group.css);
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  min-width: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  margin-top: 159px;
+}

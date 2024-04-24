@@ -1,0 +1,60 @@
+.burger-popup__details-group {
+  align-items: baseline;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  width: 29%;
+}
+.burger-popup__group {
+  gap: 10px;
+  padding: 30px 10px;
+}
+.burger-popup__details {
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  width: 75%;
+}
+.burger-popup__detail {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+  text-transform: math-auto;
+}
+.burger-popup__box-arrow {
+  background-image: url("../../image/stokeUp.svg");
+  background-size: 9px 9px;
+
+  width: 19px;
+  height: 19px;
+  background-repeat: no-repeat;
+}
+
+.burger-popup__box-arrow-down {
+  background-image: url("../../image/stokeDown.svg");
+  background-size: 9px 9px;
+  width: 19px;
+  height: 19px;
+  background-repeat: no-repeat;
+}
+
+.burger-popup-btn {
+  background:
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, #fb8627, #f5bef6) border-box;
+  background-color: #000;
+  border: 2px solid transparent;
+  border-radius: 50em;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  height: 45px;
+  line-height: 130%;
+  padding: 12px 20px;
+  width: 181px;
+}

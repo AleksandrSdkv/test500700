@@ -1,0 +1,43 @@
+.form__bottom-submit {
+  outline: none;
+  border-radius: 40px;
+  padding: 12px 20px;
+  width: 126px;
+  height: 45px;
+  cursor: pointer;
+  background:
+    linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(180deg, #fb8627, #f5bef6) border-box;
+  border: 2px solid transparent;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #0f0f17;
+  align-self: flex-start;
+  margin-bottom: 52px;
+}
+
+.form__bottom-submit:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 480px) {
+  .form__bottom-submit {
+    width: 305px;
+    height: 46px;
+    margin: 0 20px 20px 25px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .form__bottom-submit {
+    font-size: 14px;
+    height: 46px;
+    line-height: 17px;
+    margin: 0;
+    width: 126px;
+  }
+}

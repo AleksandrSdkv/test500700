@@ -1,0 +1,12 @@
+.header__nav-list-item {
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 140px;
+}
+.header__nav-list-item:hover {
+  color: #fb8627;
+  cursor: pointer;
+}

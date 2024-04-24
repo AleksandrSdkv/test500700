@@ -1,0 +1,136 @@
+.information {
+  border-top: 1px gray solid;
+  display: flex;
+  gap: 98px;
+  justify-content: space-between;
+  margin: 40px 40px 100px;
+  max-width: 100%;
+  padding-top: 150px;
+}
+
+.information__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+  width: 60%;
+}
+.information__details {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  cursor: pointer;
+  width: 90%;
+}
+
+.information__detail {
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.information__header {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.information__group {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 60%;
+}
+.information__details-group {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 30px;
+}
+
+.information__box-arrow {
+  background-image: url("../../image/stokeUp.svg");
+  background-size: 15px 15px;
+
+  width: 19px;
+  height: 19px;
+  background-repeat: no-repeat;
+}
+.information__box-arrow-down {
+  background-image: url("../../image/stokeDown.svg");
+  background-size: 15px 15px;
+
+  width: 19px;
+  height: 19px;
+  background-repeat: no-repeat;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.information__content::after {
+  content: "";
+  background-color: white;
+  width: 100%;
+  display: block;
+  height: 1px;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.8s ease-in-out;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .information {
+    margin: 50px 50px;
+    padding-top: 50px;
+  }
+  .information {
+    margin: 50px;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .information {
+    margin: 80px 10px 40px 10px;
+    padding-top: 50px;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    gap: 30px;
+  }
+
+  .information__header {
+    font-size: 24px;
+  }
+
+  .information__detail {
+    font-size: 16px;
+    width: 95%;
+  }
+  .information__group {
+    width: 100%;
+  }
+  .information__paragraph {
+    font-size: 16px;
+    width: 100%;
+  }
+  .information__details-group {
+    padding-bottom: 20px;
+  }
+}

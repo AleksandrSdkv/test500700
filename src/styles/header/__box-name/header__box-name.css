@@ -1,0 +1,33 @@
+.header__box-name {
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  border: none;
+  margin: 0;
+  text-align: center;
+}
+
+.header__box-name:hover {
+  color: #fb8627;
+  cursor: pointer;
+  border: none;
+}
+.header__box-name-group {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.header__box-arrow {
+  background-image: url("../../../image/stokeUp.svg");
+  width: 9px;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+.header__box-name-group:hover .header__box-arrow {
+  background-image: url("../../../image/stokeDown.svg");
+}

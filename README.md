@@ -8,6 +8,8 @@
 
 # Проект: Тестовое задание
 
+## Сайт:
+## [Сайт](https://aleksandrsdkv.github.io/test500700/)
 
 ## Шаблоны приложения:
 ![Шаблон](./src/image/photo.png)

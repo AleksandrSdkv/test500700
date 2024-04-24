@@ -67,6 +67,9 @@
   line-height: 130%;
   color: #fff;
   opacity: 0.5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .news__group {
   display: grid;
@@ -96,6 +99,9 @@ li div {
   }
   .news__item-paragraph {
     margin: 0 0 0 10px;
+  }
+  .news__item-paragraph:last-child {
+    margin: 20px 0 0 10px;
   }
   .news__item-header {
     margin-left: 10px;
